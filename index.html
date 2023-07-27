@@ -16,16 +16,18 @@
     <header>
 
             <div id="site_header" class="container-fluid d-flex bg-light">
+
                 <div class="card mob_logo d-flex align-content-center border-0 bg-light my-3 me-2">
                     <img src="./assets/img/mobile-logo.png" alt="">
                 </div>
                 <!-- logo -->
-                    <i class="fa-solid fa-magnifying-glass rounded-start bg-secondary-subtle my-3 px-2 py_07"></i>
-                    <input class="form-control me-2 my-3 rounded-start-0 bg-secondary-subtle" type="search" placeholder="" aria-label="Search">
-                </form>
+
+                <i class="fa-solid fa-magnifying-glass d-flex align-items-center rounded-start bg-secondary-subtle my-3 px-2 py_07"></i>
+                <input class="form-control-plaintext me-2 my-3 rounded-start-0 rounded-end bg-secondary-subtle" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
                 <!-- search bar -->
 
-                <div class="dropdown my-3">
+                <div class="dropdown d-flex align-items-center my-3">
+
                     <a class="btn" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         <i class="fa-solid fa-bell text-warning"></i>
                     </a>
@@ -35,6 +37,7 @@
                       <li><a class="dropdown-item" href="#">Another action</a></li>
                       <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul>
+
                   </div>
                   <!-- bell menu -->
             </div>
@@ -46,13 +49,18 @@
 
         <div id="site_main" class="d-flex justify-content-start">
 
-            <div class="sidebar d-flex flex-column align-items-center bg_blue_dark text-light pt-5">
+            <div class="sidebar d-flex flex-column bg_blue_dark text-light pt-5">
 
-                <i class="fa-solid fa-home fs-1 py-2"></i>
+                <div class="col d-flex flex-column align-items-center"><i class="fa-solid fa-home fs-1 py-2"></i>
                 <i class="fa-solid fa-chart-simple fs-1 py-2"></i>
-                <i class="fa-solid fa-signal fs-1 pt-2"></i>
-                <img class="side_img bg_blue_dark opacity-75" src="./assets/img/sidebar-bg.png" alt="">
+                <i class="fa-solid fa-signal fs-1 pt-2"></i></div>
+                <div class="col"><img class="side_img bg_blue_dark opacity-75" src="./assets/img/sidebar-bg.png" alt=""></div>
+                <div class="col d-flex justify-content-center align-content-end"> <i class="fa-solid fa-gear align-self-end pb-4 fs-1"></i></div>
+                
 
+                
+                
+               
             </div>
 
             <div class=" top overflow-y-auto">
@@ -129,71 +137,69 @@
                             <thead>
                             <tr>
                                 <th scope="col">Nome</th>
-                                <th scope="col">First</th>
-                                <th scope="col">Last</th>
-                                <th scope="col">Handle</th>
-                                <th scope="col">Last</th>
-                                <th scope="col">Handle</th>
+                                <th scope="col">Data di inizio</th>
+                                <th scope="col">ROI</th>
+                                <th scope="col">Stato</th>
+                                <th scope="col">Azioni</th>
                             </tr>
                             </thead>
                             <tbody>
                             <tr>
-                                <th scope="row"><img class="mob_logo w-50" src="./assets/img/class-avatar.jpg" alt=""></th>
-                                <td>Mark</td>
-                                <td>Otto</td>
-                                <td>@mdo</td>
-                                <td>@mdo</td>
-                                <td>@mdo</td>
+                                <th scope="row"><img class="mob_name_logo me-2" src="./assets/img/class-avatar.jpg" alt="">Classe 75</th>
+                                <td>15 Feb 2021</td>
+                                <td>20%</td>
+                                <td class="text-light bg-success">Done</td>
+                                <td><i class="fa-solid fa-pen"></i> <i class="fa-solid fa-trash"></i></td>
                             </tr>
                             <tr>
-                                <th scope="row row-md"><img class="mob_logo w-50" src="./assets/img/class-avatar.jpg" alt=""></th>
-                                <td>Jacob</td>
-                                <td>Thornton</td>
-                                <td>@fat</td>
-                                <td>@mdo</td>
-                                <td>@mdo</td>
+                                <th scope="row row-md"><img class="mob_name_logo me-2" src="./assets/img/class-avatar.jpg" alt="">Classe 76</th>
+                                <td>16 Feb 2021</td>
+                                <td>20%</td>
+                                <td class="text-light bg-success">Done</td>
+                                <td><i class="fa-solid fa-pen"></i> <i class="fa-solid fa-trash"></i></td>
                             </tr>
                             <tr>
-                                <th scope="row"><img class="mob_logo w-50" src="./assets/img/class-avatar.jpg" alt=""></th>
-                                <td colspan="2">Larry the Bird</td>
-                                <td>@twitter</td>
-                                <td>@mdo</td>
-                                <td>@mdo</td>
+                                <th scope="row"><img class="mob_name_logo me-2" src="./assets/img/class-avatar.jpg" alt="">Classe 77</th>
+                                <td>17 Feb 2021</td>
+                                <td>20%</td>
+                                <td class="text-light bg-warning">process</td>
+                                <td><i class="fa-solid fa-pen"></i> <i class="fa-solid fa-trash"></i></td>
                             </tr>
                             <tr>
-                                <th scope="row"><img class="mob_logo w-50" src="./assets/img/class-avatar.jpg" alt=""></th>
-                                <td colspan="2">Larry the Bird</td>
-                                <td>@twitter</td>
-                                <td>@mdo</td>
-                                <td>@mdo</td>
+                                <th scope="row"><img class="mob_name_logo me-2" src="./assets/img/class-avatar.jpg" alt="">Classe 78</th>
+                                <td>18 Feb 2021</td>
+                                <td>20%</td>
+                                <td class="text-light bg-success">Done</td>
+                                <td><i class="fa-solid fa-pen"></i> <i class="fa-solid fa-trash"></i></td>
+
                             </tr>
                             <tr>
-                                <th scope="row"><img class="mob_logo w-50" src="./assets/img/class-avatar.jpg" alt=""></th>
-                                <td colspan="2">Larry the Bird</td>
-                                <td>@twitter</td>
-                                <td>@mdo</td>
-                                <td>@mdo</td>
+                                <th scope="row"><img class="mob_name_logo me-2" src="./assets/img/class-avatar.jpg" alt="">Classe 79</th>
+                                <td>19 Feb 2021</td>
+                                <td>20%</td>
+                                <td class="text-light bg-danger">failed</td>
+                                <td><i class="fa-solid fa-pen"></i> <i class="fa-solid fa-trash"></i></td>
                             </tr>
                             <tr>
-                                <th scope="row"><img class="mob_logo w-50" src="./assets/img/class-avatar.jpg" alt=""></th>
-                                <td colspan="2">Larry the Bird</td>
-                                <td>@twitter</td>
-                                <td>@mdo</td>
-                                <td>@mdo</td>
+                                <th scope="row"><img class="mob_name_logo me-2" src="./assets/img/class-avatar.jpg" alt="">Classe 80</th>
+                                <td>20 Feb 2021</td>
+                                <td>20%</td>
+                                <td class="text-light bg-success">Done</td>
+                                <td><i class="fa-solid fa-pen"></i> <i class="fa-solid fa-trash"></i></td>
                             </tr>
                             <tr>
-                                <th scope="row"><img class="mob_logo w-50" src="./assets/img/class-avatar.jpg" alt=""></th>
-                                <td colspan="2">Larry the Bird</td>
-                                    <td>@twitter</td>
-                                <td>@mdo</td>
-                                <td>@mdo</td>
+                                <th scope="row"><img class="mob_name_logo me-2" src="./assets/img/class-avatar.jpg" alt="">Classe 81</th>
+                                <td>21 Feb 2021</td>
+                                <td>20%</td>
+                                <td class="text-light bg-danger">failed</td>
+                                <td><i class="fa-solid fa-pen"></i> <i class="fa-solid fa-trash"></i></td>
                             </tr>
                             <tr>
-                                <th scope="row"><img class="mob_logo w-50" src="./assets/img/class-avatar.jpg" alt=""></th>
-                                <td colspan="2">Larry the Bird</td>
-                                <td>@twitter</td>
-                                <td>@mdo</td>
-                                <td>@mdo</td>
+                                <th scope="row"><img class="mob_name_logo me-2" src="./assets/img/class-avatar.jpg" alt="">Classe 82</th>
+                                <td>22 Feb 2021</td>
+                                <td>20%</td>
+                                <td class="text-light bg-success">Done</td>
+                                <td><i class="fa-solid fa-pen"></i> <i class="fa-solid fa-trash"></i></td>
                             </tr>
                             </tbody>
                         </table>
