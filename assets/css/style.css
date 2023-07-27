@@ -7,11 +7,8 @@ body {
     max-width: 1920px;
     margin: 0 auto;
 }
-#site_header{
-    height: 50px;
-}
 .mob_logo {
-    width: 50px;
+    width: 60px;
 }
 .sidebar {
     width: 100px;
@@ -24,6 +21,12 @@ body {
 .top {
     width: calc(100% - 50px);
     height: 100vh;
+}
+.mob_name_logo{
+    width: 30px;
+}
+.fa_gear {
+    justify-content: space-between;
 }
 
 /* spacing */
