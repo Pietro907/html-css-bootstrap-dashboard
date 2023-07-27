@@ -115,13 +115,15 @@
 /* #region spacing*/
 
 .py-1{
-    padding: 1rem 0;
+    padding: 1rem 0 0;
 }
 
 /* #endregion spacing*/
 
 /* #region utilities*/
 
-
+.debug {
+    height: 100px;
+}
 
 /* #endregion utilities*/

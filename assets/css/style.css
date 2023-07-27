@@ -3,6 +3,40 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+#site_header{
+    height: 50px;
+}
 .mob_logo {
-    width: 10%;
+    width: 50px;
+}
+.sidebar {
+    width: 100px;
+    height: 100vh;
+    filter: saturate(0.8);
+}
+.side_img {
+    width: 100%;
+}
+.top {
+    width: calc(100% - 50px);
+    height: 100vh;
+}
+
+/* spacing */
+.py_07{
+    padding: 0.7rem 0 ;
+}
+
+/* color */
+
+.bg_blue_dark {
+    background-color: var(--dash-sidebar-blue-dark);
+}
+
+:root {
+    --dash-sidebar-blue-dark: #051e34;
 }
