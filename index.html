@@ -15,40 +15,53 @@
 
     <header>
 
-            <div id="site_header" class="container-fluid d-flex bg-light">
+            <div id="site_header" class="container-fluid bg-light">
+                <div class="row justify-content-between">
 
-                <div class="card mob_logo d-flex align-content-center border-0 bg-light my-3 me-2">
-                    <img src="./assets/img/mobile-logo.png" alt="">
+                    <div class="col-1 col-lg-2 justify-content-center align-content-center">
+                        <div class="card mob_logo border-0 bg-light my-3 me-5 d-lg-none">
+                            <img src="./assets/img/mobile-logo.png" alt="">
+                        </div>
+                        <!-- logo mobile -->
+        
+                        <div class="card d-flex align-content-center border-0 bg-light my-3 me-2 d-none d-lg-inline-block">
+                            <img src="./assets/img/logo.svg" alt="">
+                        </div>
+                        <!-- logo expand -->
+                    </div>
+                    
+                    <div class="col d-flex justify-content-center align-content-center">
+                        <nav class="navbar navbar-expand-lg bg-light w-100">
+                            <form class="container-fluid">
+                            <div class="input-group">
+                                <span class="input-group-text bg-secondary-subtle" id="basic-addon1"><i class="fa-solid fa-magnifying-glass d-flex align-items-center rounded-start"></i>
+                                </span>
+                                <input type="text" class="form-control bg-secondary-subtle" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
+                            </div>
+                            </form>
+                        </nav>                
+                        <!-- search bar -->
+                    </div>
+
+                    <div class="col-1 d-flex justify-content-center align-content-center">
+                        <div class="dropdown d-flex align-items-center my-3">
+
+                            <a class="btn" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-bell text-warning"></i>
+                            </a>
+                        
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+
+                        </div>
+                        <!-- bell menu -->
+                        </div>
+                    </div>
                 </div>
-                <!-- logo -->
-
-                <nav class="navbar bg-light w-100">
-                    <form class="container-fluid">
-                      <div class="input-group">
-                        <span class="input-group-text bg-secondary-subtle" id="basic-addon1"><i class="fa-solid fa-magnifying-glass d-flex align-items-center rounded-start"></i>
-                        </span>
-                        <input type="text" class="form-control bg-secondary-subtle" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
-                      </div>
-                    </form>
-                  </nav>                
-                <!-- search bar -->
-
-                <div class="dropdown d-flex align-items-center my-3">
-
-                    <a class="btn" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <i class="fa-solid fa-bell text-warning"></i>
-                    </a>
-                  
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-
-                  </div>
-                  <!-- bell menu -->
-                </div>
-            <!-- header first mobile -->
+                <!-- header -->
 
     </header>
 
@@ -149,8 +162,8 @@
                                     <thead>
                                     <tr>
                                         <th scope="col">Nome</th>
-                                        <th scope="col" class="d-none d-sm-table-cell me-auto text-center">Data di inizio</th>
-                                        <th scope="col" class="d-none d-sm-table-cell ms-auto text-center">ROI</th>
+                                        <th scope="col" class="d-none d-md-table-cell me-auto text-center">Data di inizio</th>
+                                        <th scope="col" class="d-none d-md-table-cell ms-auto text-center">ROI</th>
                                         <th scope="col" class="text-center">Stato</th>
                                         <th scope="col" class="text-center">Azioni</th>
                                     </tr>
