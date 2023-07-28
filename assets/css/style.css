@@ -25,8 +25,17 @@ body {
 .mob_name_logo{
     width: 30px;
 }
-.fa_gear {
-    justify-content: space-between;
+.card td {
+    text-align: center;
+}
+.card thead th {
+    padding: 2rem 1rem 1rem;
+}
+.card table tbody th, .card h2 {
+    padding: 1rem 1rem;
+}
+.card table tbody th, .card td, .card thead {
+    border-bottom: 1px solid lightgray;
 }
 
 /* spacing */
