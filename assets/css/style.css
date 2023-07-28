@@ -7,20 +7,28 @@ body {
     max-width: 1920px;
     margin: 0 auto;
 }
+#site_main{
+    height: calc(100vh - 90px);
+}
+#site_header {
+    height: 90px;
+}
 .mob_logo {
     width: 60px;
 }
-.sidebar {
+.sidebar_mob {
+    background-image: url(../img/sidebar-bg.png);
     width: 100px;
-    height: 100vh;
-    filter: saturate(0.8);
+}
+.sidebar_desk{
+    background-image: url(../img/sidebar-bg.png);
+    width: 200px;
 }
 .side_img {
     width: 100%;
 }
 .top {
-    width: calc(100% - 50px);
-    height: 100vh;
+    width: 100%;
 }
 .mob_name_logo{
     width: 30px;
@@ -38,9 +46,18 @@ body {
     border-bottom: 1px solid lightgray;
 }
 
+
 /* spacing */
 .py_07{
     padding: 0.7rem 0 ;
+}
+.icon_header a i {
+    margin: 0 1.5rem;
+}
+
+.line_h{
+    line-height: 40px;
+    margin: 0;
 }
 
 /* color */
