@@ -23,13 +23,18 @@ body {
 .sidebar_desk{
     background-image: url(../img/sidebar-bg.png);
     width: 200px;
+    height: calc(100vh - 100px);
 }
 .side_img {
     width: 100%;
 }
-.top {
-    width: 100%;
+.row_sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
 }
+
 .mob_name_logo{
     width: 30px;
 }
