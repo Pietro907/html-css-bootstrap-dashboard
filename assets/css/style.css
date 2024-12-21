@@ -8,10 +8,10 @@ body {
     margin: 0 auto;
 }
 #site_main{
-    height: calc(100vh - 90px);
+    height: calc(100vh - 100px);
 }
 #site_header {
-    height: 90px;
+    height: 100px;
 }
 .mob_logo {
     width: 60px;
@@ -45,7 +45,9 @@ body {
 .card table tbody th, .card td, .card thead {
     border-bottom: 1px solid lightgray;
 }
-
+tr button {
+    transform: scale(0.7);
+}
 
 /* spacing */
 .py_07{
@@ -58,6 +60,18 @@ body {
 .line_h{
     line-height: 40px;
     margin: 0;
+}
+.fs_16{
+    font-size: 16px;
+}
+.fs_18_5{
+    font-size: 18.5px;
+}
+.fs_20{
+    font-size: 20px;
+}
+.fs_22{
+    font-size: 22px;
 }
 
 /* color */
