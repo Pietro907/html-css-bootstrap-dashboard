@@ -54,9 +54,16 @@ tr button {
     transform: scale(0.7);
 }
 
+
 /* spacing */
 .py_07{
     padding: 0.7rem 0 ;
+}
+.p_05{
+    padding: 0.1rem 0.4rem;
+}
+.pt_04{
+    padding: 0.4rem 0 0;
 }
 .icon_header a i {
     margin: 0 1.5rem;
